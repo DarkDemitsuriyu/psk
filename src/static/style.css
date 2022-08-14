@@ -1,0 +1,78 @@
+.flat{
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 12px;
+}
+.flat-description > div > div{
+  border: 1px solid black;
+}
+.flat-description > div{
+  display:flex;
+  align-items: center;
+  min-width:20%;
+}
+.flat-description > div > span{
+  padding-left: 10px;
+  text-align:left;
+}
+.flat, .flat-description > div > div{
+  position:relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  color: white;
+}
+.apartment{
+    background: rgb(0, 204, 0);  
+  }
+  .non_residential{
+    background: rgb(33, 180, 4); 
+  }
+  .parking{
+    background: rgb(206, 255, 196); 
+  }
+  .keys_issued{
+    background: rgb(128, 128, 128) !important;
+  }
+  .reservation{
+    background: rgb(255, 166, 0) !important;
+  }
+  
+  .installment{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    background:rgb(0, 255, 242);
+    width: 8px;
+    height: 8px;
+    border-radius: 100% 0% 50% 0%;
+  }
+  .renovation{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    background:rgb(63, 42, 253);
+    width: 8px;
+    height: 8px;
+    border-radius: 50% 0% 100% 0%;
+  }
+  .marginal{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    background:rgb(5, 255, 5);
+    width: 8px;
+    height: 8px;
+    border-radius: 0% 50% 0% 100%;
+  }
+  .subsidy{
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    background:rgb(255, 5, 5);
+    width: 8px;
+    height: 8px;
+    border-radius: 0% 100% 0% 50%;
+  }
